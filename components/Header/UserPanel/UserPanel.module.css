@@ -1,0 +1,21 @@
+.container {
+  cursor: pointer;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.img {
+  position: relative;
+  height: max(3vmax, 30px);
+  width: max(3vmax, 30px);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: clamp(1rem, 1.5vmax, 1.5rem);
+}
